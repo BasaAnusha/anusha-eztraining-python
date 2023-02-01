@@ -1,0 +1,172 @@
+***programs on list
+ program:    list=[1,5,78,"python",3,89]
+                    l=list[0:5]
+                     print(l)
+
+                    list=[1,5,78,"python",3,89]
+l=list[0:5]
+m=list[::-1]
+print(l)
+print(m)
+
+
+
+
+***list commands
+programs:::::L=[12,34,89,"windows",6,6]
+L.append(9)
+print(L)
+
+
+#program2
+L=[12,34,89,"windows",6,6]
+L.extend([5,6])
+print(L)
+
+
+#program3
+m=[12,34,89,"windows",6,6]
+m.insert(1,6)
+print(m)
+
+
+#program4
+n=[1,4,6,"windows",6,6]
+n.remove(4)
+print(n)
+
+
+
+#program5
+o=[12,34,89,"windows",6,6]
+o.pop(1)
+print(o)
+
+
+#program6
+p=[12,34,89,"windowsxl",6,6]
+p.clear()
+print(p)
+
+
+#program7
+q=[12,34,89,56,6,6]
+q.sort()
+print(q)
+
+#program8
+r=[12,34,89,56,6,6]
+r.reverse()
+print(r)
+
+
+
+#program
+
+s=[12,34,89,56,6,6]
+s.copy()
+print(s)
+
+
+
+
+***program to create a list and print elements one by one
+l=[1,2,3,445,5,6,7,8,9,56]
+for i in range(len(l)):
+        print(l[i])
+***program  for sum and average pf a list
+m=[4.5,3.5,8.7,9.9,7.9]
+print(sum(m))
+print(sum(l)/5)
+***program from the user to extract only even numbers and print
+l=[21,2,3,4,5,6,7,8,9,6]
+for i in l:
+      if(i%=0)
+print(i) 
+
+***size=int(input("enter element:"))
+l=[]
+for i in range(size):
+    l=int(input("element"))
+    l.append(m)
+    print(l)
+
+
+
+
+
+***size=int(input("size:"))
+for i in range(size):
+    m=int(input("element")).split())
+    l.append(m)
+    print(l)
+product=1
+for j in range(len(l)):
+    product=product*l[j]
+if(product<750):
+    
+       print(product)
+else:
+       print(sum)
+
+
+***program for   list
+   l=["hp","asus","dell"]
+city =[]
+for i in l:
+    if "s" in i:
+       city.append(i)
+print(city)
+  
+l1=[2**x for x in range(2,6)]
+print(l1)
+
+l2=[a for a in range(100,300,200)]
+print(l2)
+
+l3=[1,2,3,4,5,6]
+l4=[i for i  in l3 if(i<5)]
+print(l4)
+
+***program for set topic
+
+set1={2,4,6,8,8,16,18}
+set2={1,3,5,7,8,4}
+print(set1)
+set1.add(22)
+set2.update([2,3])
+print(set2)
+set2.discard(8)
+print(set2)
+set1.remove(16)
+print(set1)
+print(set1|set2)
+print(set1&set2)
+print(set1-set2)
+
+***for tuple
+t=(1,3,5,7,9,"windows")
+print(t.count(5))
+print(t.index(9))
+
+
+
+***dictionary
+dict_items={91:'list',2:"two"}
+print(dict_items)
+print(type(dict_items))
+print(dict_items.keys())
+
+
+;;;print(dict_items.valuesd={'hello':'techno','hi':'technical'}
+type(d)
+
+print(d.values())
+print(d.keys())
+
+
+
+
+
+
+
