@@ -1,14 +1,5 @@
-
-m=list(map,int(input("enter element:").split()))
-print(m)
-x=1
-y=0
-for i in m:
-    x=x*i
-    y-y+1
-if(x<=750):
-    
-       print("product",x)
+n=int(input("enter the number:"))
+if n==500:
+    print("yes")
 else:
-       print("sum",y)
-                                        
+    print("no")
