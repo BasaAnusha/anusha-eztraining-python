@@ -1,0 +1,161 @@
+***CREATING A DICYTIONARIES FROM THE ITERABLE LIST,TUPLE
+l=['hi','hello',6]
+dict.fromkeys(l)
+print(dict.fromkeys(l))
+dict.fromkeys(l,50)
+print(dict.fromkeys(l,50))
+{}.fromkeys(l,100)
+print({}.fromkeys(l,100))
+
+
+
+
+#program1
+
+
+d={n:n*n for n in  range(1,5)}
+print(d)
+
+
+#CALCULATING THE PRODUCT PRICE FOR 5 UNITS
+old={'RICE':56,'oil':76,'dhaal':89}
+cost={product:price*5 for (product,price) in old.items()}
+print(cost)
+
+#WITH CHECKS
+real={'sam':20,'jam':67,'ram':36}
+new={name:age for (name,age) in real.items() if age>20}
+print(new)
+
+
+
+###PROGRAM FOR CREATING A LIST FOR EIGHT CUSTOMERS TO GRT DISCOUNTS  OF A PARTICULAR SHOP
+PROGRAM:l=['ram','jam','sam','nimmi','sri','lee','geetha','reeta']
+dict.fromkeys(l,16)
+print(dict.fromkeys(l,16))
+
+
+***simport random
+cust=['ram','jam','sam','nimmi','sri','lee','geetha','reeta']
+cust_dict={names: random.randint(1,100) for names in cust}
+print(cust_dict)
+
+
+###STRING  COMMAND PROGRAMS
+ s="ram""sam""jam"
+print(s)
+
+print(s.upper()) 
+print(s.capitalize())
+print(s.replace('a','b'))
+print(s.strip())
+print(s.split('a'))
+print(s.center(31,'*'))
+print(s.count('a'))
+print(s.find('a',0,len(s)))
+print(s.index('a',7,len(s)))
+print(s.islower())
+print(s.istitle())
+print(min(s))
+
+
+###PROGRAM FOR STUDENT MARKS AND THEIR PERCENTAILE
+import random
+student_names=[list(map("enter names:"))]
+marks=[]
+for i in len(student_names):
+       d=(random.randint((300,500)/500)*100)
+       marks.append(d)
+d={x:y for (x,y) in zip(student_names,marks)}
+print(d)
+
+
+
+
+###MUTABLE(changeble) AND IMMUTABLE(unchangeble)
+l=[6,7,8]
+l
+[6, 7, 8]
+id(l)
+2590311148672
+l.reverse()
+l
+[8, 7, 6]
+id(l)
+2590311148672
+
+
+
+###GET ONE STRING AS INPUT ALONG WITH CHAR .FIND OUT AND DISPLAY WHEATHER THE CHARACTER IS PREESNT  IN STRING OR NOT
+LOGIC1**s=input("enter any string:")
+t=input("enter the character:")
+
+
+if t in s:
+         print('  char is   present')
+else:
+        print('char is  not present')
+
+LOGIC2***s=input("enter any string:")
+char=input("enter char:")
+for i in s:
+    if i==char:
+        flag=1
+        break
+    else:
+        flag=0
+if flag==1:
+    print("prsent")
+else:
+    print("not present")
+
+###CHECK WHEATHER THE STRING IS PALINDROME OR NOT
+   s=str(input("enter :"))
+if reversed(s)==s:
+ print("it is palindrome")
+else:
+     print("it is not palindrome")'''
+
+
+###CHEAK THE STRING HAVING  SPACE OR NOT IF HAVING SPACE COUNT THE SPACES
+
+s="good vibes belike"
+count=0
+for i in s:
+   if i=="  ":
+       count+=1
+       
+print(count)
+  
+
+###CREATE A LIST WITH VOWELS GET ONE STRING AS INPUT COUNT VOWELS FROM THE STRING
+***  l=['a','e','i','o','u']
+s=input("enter the string:")
+count=0
+for i in s:
+    if i in l:
+         count=count+1
+print(count)
+        
+
+
+###MATH MODULE
+import math
+print("ceil 12.5:",math.ceil(12.5))
+print("floor 12.5:",math.floor(12.5))
+print("sqrt 369:",math.sqrt(369))
+print("factorial 3:",math.factorial)
+print("power 6,6:",math.pow(6,6))
+print("remainder 10,3:",math.fmod(10,3))
+a,b=divmod(10,3)
+print(a,b)
+
+
+
+        
+
+
+
+
+
+
