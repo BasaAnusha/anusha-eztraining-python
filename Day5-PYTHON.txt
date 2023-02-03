@@ -1,0 +1,252 @@
+###RANDOM MODULE
+import random as r
+x="i love sweets"
+print(r.sample(x,2))
+#every time it gives different output
+a=[1,2,3,4,5,6]
+r.shuffle(a)
+print(a)
+print(r.choices(a))
+
+b='welcome python'
+print(r.choice(b))
+a=r.random()
+print(a)
+#will return the random number between 0.0 to1.0
+#0.0 includes 1.0 excludes
+
+print(r.randint(20,30))
+a=[47,57,76,83,29,27]
+print(r.choices(a,k=2))
+
+
+s="choice of the day"
+print(r.choices(s,k=100))
+print(uniform(5,16))
+#RETURNS THE RANDOM NUMBER
+#BETWEEN THE RANGE INCLUDES THE
+#RANGE VALUES
+
+z.dir(z)         =>>>>>>PRINT ALL THE FUNCTIONS
+print(z)
+
+#CALENDAR PROGRAM
+import calendar
+print("full calendar")
+print(calendar.calendar(2022))
+
+
+print("particular month")
+print(calendar.calendar(2021.6))
+
+
+
+print("set first day of the week")
+calendar.setfirstweekday(calendar.friday)
+print(calendar.month(2021,12))
+
+
+
+
+#PRAG - DISPLAY TIME
+import datetime
+a=datetime.datetime.now()
+print(a)
+sv=a.strftime("%y")#lower case
+fv=a.strftime("&y")#upper case
+print("year short version",sv)
+print("year full version")
+
+
+
+#FUNCTION WITHOUT ARGUEMNT AND WITHOUT RETURN VALUE
+def sample():
+    print("`first day")
+    print("second day")
+sample()
+print("third day")
+sample()
+
+#PROGRAM1
+def multi():
+    x=int(input("enter:"))
+    y=int(input("enter:"))
+    z=int(input("enter:"))
+    product=(x*y)*z
+    print(product)
+    
+multi()
+
+
+#PROGRAM FOR WITHOUT ARGUMENT AND WITH RETURN VALUE
+def multi():
+    x=int(input("enter:"))
+    y=int(input("enter:"))
+    z=int(input("enter:"))
+    product=(x*y)*z
+    return product
+res=multi()
+print(res)
+
+
+
+
+#PROGRAM FOR WITH ARGUMENT AND WITHOUT RETURN VALUE
+
+
+def multi(x,y,z):
+    
+    product=(x*y)*z
+    print( product)
+multi(2,3,6)
+
+def multi1(a,b,c):
+    
+    product=(a*b)*c
+    print(product)
+a=int(input("enter:"))
+b=int(input("enter:"))
+c=int(input("enter:"))
+multi1(a,b,c)
+
+  #PROGRAM FOR WITH ARGUMENT AND WITH RETURN VALUE
+
+
+def multi(x,y,z):
+    
+    product=(x*y)*z
+    return product
+res=multi(2,3,6)
+print(res)
+
+def multi1(a,b,c):
+    
+    product=(a*b)*c
+    return product
+a=int(input("enter:"))
+b=int(input("enter:"))
+c=int(input("enter:"))
+res=multi1(a,b,c)
+print(res)
+
+
+#PROGRAM OF MULTI TABLE
+def multi_table(n):
+    for i in range(1,11):
+        print(i,"x",n,"=",i*n)
+n=int(input("which table?:"))
+multi_table(n)
+
+#PROGRAM FOR FACTORS OF A GIVEN NUMBER
+def  factor(a):
+    
+    
+    for i in range(1,a+1):
+        if  a%i==0:
+           print(i)
+a=int(input("enter the number:"))
+factor(a)
+
+###PROGRAM FOR SUM OF DIGITS OF THR GIVEN NUMBER
+def digits(n):
+    sum=0
+    i=n%10
+    j=n//10
+    sum=i+j
+    return sum
+n=int(input("enter the number"))
+res=digits(n)
+print(res)
+
+
+
+def digits(n):
+    sum=0
+    while n!=0:
+        
+       rem=n%10
+       sum=sum+rem
+       n=n//10
+    return sum
+n=int(input("enter the number"))
+res=digits(n)
+print(res)
+
+
+
+###fFACTORIAL OF A NUMBER
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        return(n*fact(n-1))
+n=int(input("enter the number:"))
+res=fact(n)
+print(res)
+
+
+
+
+
+
+
+
+
+#RECURSIVE  FUNCTION
+def display():
+    n=int(input("enter the number:"))
+    if n==1:
+        display()
+    else:
+        print("over")
+display()
+
+
+
+###PROGRAM FOR FABINOCCI SERIES
+n=int(input("enter the number:"))
+a=0
+b=1
+sum=0
+count=1
+while(count<=n):
+    print(sum,end="")
+    count=count=1
+    a=b
+    b=sum
+    sum=a+b
+
+
+
+
+#VARIABLE LENGTH METHOD
+def sum(*a):
+    c=0
+    for i in a:
+        c=c+i
+        print(c)
+sum(10,2,3,4,5,6,7,7,8,9)
+
+
+def add_sub(x,y):
+     sub=x-y
+     add+x+y
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
