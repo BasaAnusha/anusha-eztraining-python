@@ -1,0 +1,28 @@
+EXCEPTION HANDLING
+
+  when there is exception the developer  does not want interuption r disturbance in the program flow to achieve this we are using exception handling
+*there are 3  TRY,EXCEPT,FINALLY
+     #TRY  ur telling that this may hve an error ,u try
+    
+#EXCEPT EXCEPTION :u r saying that if error there in the program it was handled  #this will print error also
+#FINALLY:prints the final block of the statement
+
+RAISE KAEYWORD: leave an  error
+
+
+###OOPS(object oriented programming language)
+its an effeciant concept used in all object oriented programable langusges used in java
+
+for multiple reasons we use oops concepts for example code reusebility ,data security ,hidding data
+CLASS :its a blueprint >=ex:words ,laptops,name
+OBJECT:
+its a thing created based on class 
+note//one class can hve multiple objects ex:parrot.peacock,dove for bird as a clas                                         
+                                                                         dell,lenova,hp are  objects of the laptop
+
+
+
+
+
+
+ 
